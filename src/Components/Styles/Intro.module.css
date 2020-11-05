@@ -1,0 +1,24 @@
+.intro{
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+}
+.content{
+    width: 42%;
+    padding-left: 200px;
+    padding-top: 100px;
+    text-align: left;
+    
+}
+.h3{
+    font-size: 1.3em;
+    
+}
+.p{
+    font-size: 1.1em;
+}
+.p1{
+    text-align: left;
+    padding-left: 200px;
+    text-decoration: underline;
+    color: black;
+}

@@ -1,0 +1,92 @@
+.navbar{
+    height: 100px;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    left: 5%;
+    background-color: #eeeeee;
+    z-index: 2;
+}
+.navimg{
+    float: left;
+    margin: 20px;
+    
+}
+
+.ul{
+    float: right;
+    height: 40px;
+    width: 75%;
+
+}
+.ul li{
+    float: left;
+    list-style: none;
+    font-weight: bold;
+    
+    margin: 10px 30px 10px 0;
+    color: rgb(22, 22, 22);
+}
+.ul li:hover{
+    color: rgb(85, 85, 85);
+}
+@media screen and (max-width:1024px ){
+    .ul li{
+    margin: 10px 20px 10px 0;
+}
+}
+@media screen and (max-width:768px ){
+    .ul li{
+         margin: 10px 12px 10px 0;
+}
+.ul{
+    width: 70%;
+
+}
+}
+@media screen and (max-width:426px ){
+    .navbar{
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border: orangered 2px solid;
+    margin-left: 0;
+}
+.navimg{
+    width: 20%;
+    float: none;
+    margin-left: 0;
+    background-color: chartreuse;
+    display: inline;
+}
+.icon{
+    width: 10%;
+    display: inline;
+}
+   
+   .ul{
+       display: inline;
+    height: 180px;
+    width: 60%;
+    margin-right: 0px;
+    margin-top: 0px;
+    float: right;
+    margin-left: 0;
+    float: right;
+
+}
+.ul li{
+    font-size: x-large;
+    width: 150px;
+    float: none;
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 0px;
+    color: rgb(219, 219, 219);
+    background-color: rgba(0, 0, 0, 0.712);
+}
+
+
+}
